@@ -12,23 +12,20 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+##Project Description 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Calling APIs is the most common thing to do in any modern web application. When it comes to talking with an API then most of the time we need to do a lot of repetitive things like getting data from an API call, handling the success or error case, and so on.
 
-## Learn More
+The problem comes when we start adding new features on top of the existing features without handling the API calls in an efficient and reusable manner. 
 
-To learn more about Next.js, take a look at the following resources:
+We can avoid this problem by creating resuseable hook and use that hook to make mutiple api calls
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can start by looking at hooks/useAPpi.js -- the resueable hook we have created to make api calls 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+We are using https://jsonplaceholder.typicode.com/ JASON PLACEHOLDER for making fake api calls 
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##Styling 
+Chakra UI for styling 
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
